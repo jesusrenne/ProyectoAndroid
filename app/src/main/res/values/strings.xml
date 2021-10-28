@@ -1,0 +1,7 @@
+<resources>
+    <!-- Colocar el encabezado de una página-->
+    <string name="app_name">Proyecto actividades</string>
+    <string name="activity_main">Actividad Principal</string>
+    <string name="activity_second">Actividad Dos</string>
+    <string name="activity_third">Actividad Tres</string>
+</resources>
