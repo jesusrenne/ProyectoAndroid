@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Intent newIntent2 = new Intent(this, SecondActivity.class);
         newIntent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         //Pasar parámetros entre actividades
-        newIntent2.putExtra("msg","Hola");
+        newIntent2.putExtra("msg","Hola MinTIC");
         newIntent2.putExtra("year",2021);
 
         startActivity(newIntent2);
