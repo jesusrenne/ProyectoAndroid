@@ -22,7 +22,8 @@
         android:onClick="goToActivitySecond"
         android:text="ACTIVIDAD2"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:visibility="gone" />
 
     <Button
         android:id="@+id/button4"
@@ -33,7 +34,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:visibility="gone" />
 
     <RadioGroup
         android:layout_width="wrap_content"
