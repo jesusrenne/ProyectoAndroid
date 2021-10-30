@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.holamundo">
+    package="com.example.ProyectoAndroid">
 
     <application
         android:allowBackup="true"
@@ -11,15 +11,15 @@
         android:theme="@style/Theme.HolaMundo">
         <!--Actividades o pantallas de un proyecto-->
         <activity
-            android:name=".ThirdActivity"
+            android:name="com.example.ProyectoAndroid.ThirdActivity"
             android:label="@string/activity_third"
             android:exported="false" />
         <activity
-            android:name=".SecondActivity"
+            android:name="com.example.ProyectoAndroid.SecondActivity"
             android:label="@string/activity_second"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ProyectoAndroid.MainActivity"
             android:label="@string/activity_main"
             android:exported="true">
             <intent-filter>
